@@ -1,0 +1,17 @@
+{
+  "name": "connectedAgency",
+  "description": "mon back pour l'agence connecté",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "^4.13.4",
+    "mongoose": "^4.5.0",
+    "threerest": "1.0.5"
+  },
+  "devDependencies": {
+    "supertest": "1.1.0"
+  },
+  "scripts": {
+    "start": "jsr compile:js & node ./dist/js/app"
+  }
+}
